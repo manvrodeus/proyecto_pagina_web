@@ -1,0 +1,208 @@
+body {
+    background-color: #52aff6; /* Color de fondo */
+}
+.fondo{
+    background-color:#ffffff
+}
+.card {
+    width: 100%;
+}
+
+.card-img-top {
+    max-height: 200px;
+    object-fit: contain;
+}
+
+.card-body h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-body .card-text {
+    font-size: 1rem;
+}
+
+.textoparrafos {
+    color: white;
+}
+
+.table-container, .form-container, .full-width-table {
+    width: 100%;
+}
+
+.navbar-custom {
+    background-color: #007ea7; /* Color fondo de la barra buscadora */
+    color: #ffffff; /* Color letras */
+}
+
+.btn-custom {
+    background-color: #fb8500; /* Color fondo del boton buscar */
+    color: #ffffff; /* Blanco */
+    border-color: #8b0000; /* Color del borde igual al color de fondo */
+}
+
+.my-button {
+    position: absolute;
+    top: 1110px; /* Ajusta la posición vertical */
+    left: 50px; /* Ajusta la posición horizontal */
+}
+
+.custom-search-bar {
+    height: 40px; /* Altura deseada */
+}
+
+/* Estilo para el botón de búsqueda */
+.custom-search-btn {
+    height: 35px; /* Altura deseada */
+    padding: 0 5px; /* Ajuste de relleno horizontal */
+}
+
+.producto {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.producto h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.producto p {
+    margin-bottom: 10px;
+}
+
+
+.producto .precio {
+    font-weight: bold;
+    color: #007bff;
+    font-size: 1.25rem;
+}
+
+.imagen {
+    position: absolute;
+    top: 40px; /* Posición desde la parte superior */
+    left: 1100px; /* Posición desde la izquierda */
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.cuadro_login {
+    border: 1px solid blue;
+    padding: 10px;
+    width: 300px;
+}
+
+.boton_ingresar {
+    width: 200px;
+    margin: auto;
+}
+
+.index_disponible {
+    color: green;
+    font-weight: bolder;
+}
+
+.index_precio {
+    color: blue;
+    font-size: 20px;
+}
+
+.index_subscrito {
+    color: red;
+    font-size: 20px;
+}
+
+.index_oferta {
+    color: red;
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+.index_stock {
+    color: blue;
+    font-weight: bolder;
+}
+
+.ficha_foto {
+    height: 100%;
+    float: right;
+    border: 3px solid gray;
+}
+
+.ficha_titulo {
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.bod {
+    position: static;
+    top: 174px;
+    left: 123px;
+}
+
+.ficha_disponible {
+    color: green;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.negrita {
+    font-weight: 700;
+}
+
+.ima {
+    position: absolute;
+    top: 174px;
+    left: 700px;
+    max-width: 30%;
+}
+
+.btnexaminar {
+    top: 600px;
+    left: 800px;
+    position: absolute;
+}
+
+.ficha_precio {
+    font-size: 40px;
+}
+
+.custom {
+    position: absolute;
+    top: 420px;
+    left: 830px;
+}
+
+#bodega_tabla {
+    border: 1px solid black;
+}
+
+#boleta_tabla_estados {
+    float: right;
+}
+
+#boleta_tabla_estados td {
+    text-align: center;
+    font-weight: bold;
+    padding-right: 50px;
+}
+
+.error {
+    color: red;
+    font-weight: bolder;
+}

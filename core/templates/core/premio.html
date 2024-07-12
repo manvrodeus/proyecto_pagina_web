@@ -1,0 +1,27 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% load custom_filters %}
+{% block content %}
+
+<br><br>
+
+<div class="contanier-fluid bg-white py-4 pt-4" style="border-radius: 10px; text-align: center; width: 80%; margin: auto;">
+  <p class="ficha_titulo">
+    ¡Concursa por una gran variedad de productos!
+    <br>
+    Por compras superiores a $20.000 ya estaras participando.
+  </p>
+</div>
+<br>
+<div class="containerfluid">
+  <div id="recuadro-de-ropa" class="row">
+    <!-- Las tarjetas de productos se agregarán aquí -->
+</div>
+</div>
+{% endblock content %}
+
+{% block script %}
+<script src="{% static 'core/js/premio.js' %}"></script>  
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+{% endblock script %}

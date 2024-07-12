@@ -1,0 +1,62 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block content %}
+
+<br />
+<section style="text-align: center;">
+    <h2 style="text-align: center; font-weight: bolder">GAMES SHOP</h2>
+    <p class="paragraph">
+        <div>
+            Estamos dedicados a ofrecerte más que solo juegos; te ofrecemos experiencias únicas y emocionantes.
+        Tu paraíso gamer comienza aquí, donde los juegos cobran vida y te invitan a descubrir tu próxima aventura. 
+        Juega sin límites en un mundo diseñado para ti. ¡Bienvenido a GAMES SHOP, donde la diversión y la emoción están garantizadas!
+        </div>
+    </p>
+
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-lg-6 d-flex cards-container">
+                <div class="card" style="width: 18rem">
+                    <img src="{% static 'core/img/owner.png' %}" class="card-img-top" style="width: 200px; margin: auto; margin-top: 10px;" alt="" />
+                    <div class="card-body">
+                        <h5 class="card-title">Owner</h5>
+                        <br>
+                        <p class="card-text">
+                            Líder máximo responsable de la tienda. 
+                        </p>
+                        <br>
+                        <a href="" class="btn btn-warning">Enviar Correo</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem">
+                    <img src="{% static 'core/img/programador.png' %}" class="card-img-top" style="width: 200px; margin: auto; margin-top: 10px;" alt="" />
+                    <div class="card-body">
+                        <h5 class="card-title">Programador</h5>
+                        <br>
+                        <p class="card-text">
+                            Se encarga del mantenimiento del pagina
+                        </p>
+                        <br>
+                        <a href="" class="btn btn-warning">Enviar Correo</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem">
+                    <img src="{% static 'core/img/disenador.png' %}" class="card-img-top" style="width: 200px; margin: auto; margin-top: 10px;" alt="" />
+                    <div class="card-body">
+                        <h5 class="card-title">Diseñador</h5>
+                        <br>
+                        <p class="card-text">
+                            Crea la estética visual de la tienda, incluyendo diseño web,
+                            gráficos promocionales y merchandising.
+                        </p>
+                        <br>
+                        <a href="" class="btn btn-warning">Enviar Correo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<br>
+{% endblock content %}
